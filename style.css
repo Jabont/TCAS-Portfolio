@@ -1,0 +1,47 @@
+.header-img{
+	border-radius: 20px 20px 0 0 ; 
+	box-shadow: 0px 0px 10px #0006;
+}
+
+.header-name{
+	text-shadow: 0px 0px 10px #0002;
+}
+
+#header{
+	/*background-color: #FBC02D;*/
+	/*background-image: linear-gradient(to top right,#F9A825,#FFEE58);*/
+}
+
+.school-logo{
+	max-height: 3rem;
+	display: inline-block;
+}
+#school{
+	box-shadow: 0px 1px 2px #0002;
+}
+bar{
+	height: 100%;
+	transition: all 1s;
+	display: block;
+	min-height: 1rem;
+}
+#thebars.hide bar{
+	width: 0% !important;
+}
+
+#qoute{
+	font-style: italic;
+}
+
+#ref p{
+	/*font-style: italic;*/
+}
+
+#ref p::before{
+	content: "“";
+	opacity: .7;
+}
+#ref p::after{
+	content: "”";
+	opacity: .7;
+}
